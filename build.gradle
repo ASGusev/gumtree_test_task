@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "com.github.gumtreediff:gen.jdt:2.1.2"
+    compile "com.github.gumtreediff:core:2.1.2"
+    compile "com.github.gumtreediff:client:2.1.2"
+}
